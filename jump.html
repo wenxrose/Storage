@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .pro{
+        font-size: 30px;
+        height: 50px;
+        margin: 20px 0;
+    }
+</style>
+<body>
+    <div>请输入你的id值：</div>
+    <input type="text" id="val" 
+    onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"  
+    onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}" />  
+    <div class="jump" style="width: 100px;height: 30px;background:violet"></div>
+
+
+    <div class="proshow">
+    </div>
+</body>
+<script src="js/jump.js"></script>
+</html>

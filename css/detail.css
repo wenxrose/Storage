@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    background: black;
+    width: auto;
+}
+.de-body{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+}
+.left-part{
+    width: 60%;
+    height: 100%;
+    background: sandybrown
+}
+.right-part{
+    width: 40%;
+    height: 100%; 
+    background: chocolate
+}
+.pro-title{
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 5px
+}
