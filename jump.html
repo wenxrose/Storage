@@ -12,13 +12,12 @@
         height: 50px;
         margin: 20px 0;
     }
+    body{
+        text-align: center;
+        padding-top: 30px;
+    }
 </style>
 <body>
-    <div>请输入你的id值：</div>
-    <input type="text" id="val" 
-    onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"  
-    onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}" />  
-    <div class="jump" style="width: 100px;height: 30px;background:violet"></div>
 
 
     <div class="proshow">

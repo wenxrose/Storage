@@ -16,16 +16,22 @@
 .left-part{
     width: 60%;
     height: 100%;
-    background: sandybrown
+    background: sandybrown;
+    padding-left: 150px;
 }
 .right-part{
     width: 40%;
     height: 100%; 
     background: chocolate
 }
+.pro-id{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
 .pro-title{
     font-size: 35px;
     color: #000;
     font-weight: bold;
-    padding-bottom: 5px
+    margin: 10px 10px;
 }
