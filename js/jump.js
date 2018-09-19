@@ -20,3 +20,13 @@ for (let i = 0; i < json1.length; i++) {
       }
     proshow.appendChild(newdiv);
 }
+
+$.ajax({
+    type: "g",
+    url: "http://192.168.2.3",
+    data: "data",
+    dataType: "dataType",
+    success: function (response) {
+        
+    }
+});

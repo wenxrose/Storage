@@ -10,3 +10,6 @@
 
     a.innerHTML = json1[0]["id"]
     b.innerHTML = json1[0]["name"]
+
+
+    localStorage.removeItem("detial")
