@@ -22,3 +22,7 @@ window.location.href='detail.html'
 var storage = window.localStorage;
 var json1 = JSON.parse(localStorage.getItem("detial"));
 ```
+#### 当接受完页面的值之后，就要清除存储，保证隐私
+```javascript
+localStorage.removeItem("detial")
+```
